@@ -1,0 +1,1 @@
+Codifique classes a partir do modelo de domínio gerado da atividade anterior. Crie classes onde seja possível estabelecer os relacionamentos abordados mas aulas.
