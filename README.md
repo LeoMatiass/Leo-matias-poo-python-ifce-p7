@@ -1,2 +1,2 @@
-# Leo-matias-poo-python-p7
-repositório para turma de poo no sétimo semestre de informática. 
+Criar um Controler (Rotas do CRUD) no Flask usando a Tabela Clientes do Projeto-01 Nota Fiscal.
+Testar o Controler com objetos instanciados.

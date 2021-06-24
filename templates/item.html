@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ super()}} - Verificar Item{% endblock %}
+
+{% block content %}
+<div>
+    {% if Item %}
+        <h4>Bem vindo(a) {{Item.get_nome()}}, seu código é {{Item.get_codigo()}}</h4>
+    {% elif erro %}
+        <h4>ID inválido. Tente Novamente</h4>
+    {% else %}
+        <h4>Digite o seu ID na url</h4>
+    {% endif %}
+</div>
+{% endblock %}
